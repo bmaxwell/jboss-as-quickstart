@@ -70,6 +70,7 @@
     </properties>
 
     <modules>
+        <module>securityModule</module>
         <module>app-one</module>
         <module>app-two</module>
         <module>app-main</module>
