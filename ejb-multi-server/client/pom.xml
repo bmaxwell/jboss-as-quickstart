@@ -101,6 +101,13 @@
             <artifactId>jboss-ejb-client</artifactId>
             <version>${version.jboss.ejb.client}</version>
         </dependency>
+
+
+        <!-- necessary for security interceptors -->
+        <dependency>
+            <groupId>org.picketbox</groupId>
+            <artifactId>picketbox</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

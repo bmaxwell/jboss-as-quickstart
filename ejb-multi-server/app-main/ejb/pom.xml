@@ -57,6 +57,12 @@
             <version>${project.version}</version>
             <type>ejb-client</type>
         </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>jboss-ejb-multi-server-security-module</artifactId>
+            <version>${project.version}</version>
+            <scope>runtime</scope>
+        </dependency>
     </dependencies>
 
     <build>
