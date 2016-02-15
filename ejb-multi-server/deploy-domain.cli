@@ -1,4 +1,8 @@
 batch
+
+# deploy the server/client security interceptors to all server groups
+deploy securityModule/target/jboss-ejb-multi-server-security-module.jar --all-server-groups
+
 deploy app-one/ear/target/jboss-ejb-multi-server-app-one.ear --server-groups=quickstart-ejb-multi-appOne-server
 deploy app-two/ear/target/jboss-ejb-multi-server-app-two.ear --server-groups=quickstart-ejb-multi-appTwo-server
 deploy app-main/ear/target/jboss-ejb-multi-server-app-main.ear --server-groups=quickstart-ejb-multi-main-server

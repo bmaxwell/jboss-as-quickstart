@@ -100,11 +100,13 @@
                             <artifactId>jboss-ejb-multi-server-app-two-ejb</artifactId>
                             <bundleDir>lib</bundleDir>
                         </ejbClientModule>
+<!-- removed from lib and just use a module dependency
                         <jarModule>
                             <groupId>${project.groupId}</groupId>
                             <artifactId>jboss-ejb-multi-server-security-module</artifactId>
                             <bundleDir>lib</bundleDir>
                         </jarModule>
+-->
                     </modules>
                     <archive>
                         <addMavenDescriptor>false</addMavenDescriptor>

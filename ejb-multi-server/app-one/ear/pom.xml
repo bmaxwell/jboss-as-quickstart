@@ -69,11 +69,13 @@
                             <artifactId>jboss-ejb-multi-server-app-one-ejb</artifactId>
                             <bundleFileName>ejb.jar</bundleFileName>
                         </ejbModule>
+<!-- removed from deployment, just use a module dependency 
                         <jarModule>
                             <groupId>${project.groupId}</groupId>
                             <artifactId>jboss-ejb-multi-server-security-module</artifactId>
                             <bundleDir>lib</bundleDir>
                         </jarModule>
+-->
                     </modules>
                     <archive>
                         <addMavenDescriptor>false</addMavenDescriptor>
